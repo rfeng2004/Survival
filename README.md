@@ -14,3 +14,7 @@ I adapted the code to create the multiplayer part of the game.
 - Two enemies are generally enough to kill your ball, and bosses one shot.
 - Score is increased for the size of each enemy that spawn, and for each enemy killed (either by absorbing its damage or by killing it when invincible).
 - In the multiplayer version, you can also damage the opponent by running into them (which will damage them more than yourself).
+
+# Known Issues
+- The multiplayer syncing is not perfect, which can cause issues over a long period of game play.
+- The socket exception handling is not perfect and sometimes generates errors, especially at the end of games.
